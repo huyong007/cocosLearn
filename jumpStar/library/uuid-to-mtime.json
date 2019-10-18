@@ -484,11 +484,6 @@
     "meta": 1568094610259,
     "relativePath": "scripts"
   },
-  "11971077-c032-4a9d-a86f-65e7affc7dd3": {
-    "asset": 1568204647735,
-    "meta": 1571394535890,
-    "relativePath": "scripts/Player.ts"
-  },
   "a3ee0214-b432-4865-9666-4a3211814282": {
     "asset": 1571297020000,
     "meta": 1571297020000,
@@ -508,5 +503,10 @@
     "asset": 1571297020000,
     "meta": 1571394533152,
     "relativePath": "prefab/light/spot.prefab"
+  },
+  "11971077-c032-4a9d-a86f-65e7affc7dd3": {
+    "asset": 1571397501563,
+    "meta": 1571397509668,
+    "relativePath": "scripts/Player.ts"
   }
 }

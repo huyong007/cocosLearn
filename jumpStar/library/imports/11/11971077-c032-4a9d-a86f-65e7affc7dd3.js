@@ -38,16 +38,21 @@ var NewClass = /** @class */ (function (_super) {
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         // 主角跳跃高度
-        _this.jumpHeight = 0;
+        _this.jumpHeight = 150;
         // 主角跳跃持续时间
-        _this.jumpDuration = 0;
+        _this.jumpDuration = 0.3;
         // 最大移动速度
-        _this.maxMoveSpeed = 0;
+        _this.maxMoveSpeed = 400;
         // 加速度
-        _this.accel = 0;
+        _this.accel = 1000;
+        _this.accLeft = false;
+        _this.accRight = false;
+        _this.xSpeed = 1000;
         return _this;
         // update (dt) {}
     }
+    // @property
+    // dt: number;
     NewClass.prototype.setJumpAction = function () {
         // 跳跃上升
         var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
@@ -61,8 +66,58 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.onLoad = function () {
         var jumpAction = this.setJumpAction();
         this.node.runAction(jumpAction);
+        // 加速度方向开关
+        this.accLeft = false;
+        this.accRight = false;
+        // 主角当前水平方向速度
+        this.xSpeed = 100;
+        // 初始化键盘输入监听
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+    };
+    NewClass.prototype.update = function (dt) {
+        if (this.accLeft) {
+            this.xSpeed -= this.accel * dt;
+        }
+        else if (this.accRight) {
+            this.xSpeed += this.accel * dt;
+        }
+        if (Math.abs(this.xSpeed) > this.maxMoveSpeed) {
+            this.xSpeed = this.maxMoveSpeed * this.xSpeed / Math.abs(this.xSpeed);
+        }
+        this.node.x += this.xSpeed * dt;
+        console.log(this.node.x, 'this.node.x');
+    };
+    NewClass.prototype.onDestroy = function () {
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     };
     NewClass.prototype.start = function () {
+    };
+    NewClass.prototype.onKeyDown = function (event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.a:
+                this.accLeft = true;
+                console.log(this.accLeft, 'this.accLeft');
+                break;
+            case cc.macro.KEY.b:
+                this.accRight = true;
+                break;
+            default:
+                break;
+        }
+    };
+    NewClass.prototype.onKeyUp = function (event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.a:
+                this.accLeft = false;
+                break;
+            case cc.macro.KEY.b:
+                this.accRight = false;
+                break;
+            default:
+                break;
+        }
     };
     __decorate([
         property
@@ -76,6 +131,15 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property
     ], NewClass.prototype, "accel", void 0);
+    __decorate([
+        property
+    ], NewClass.prototype, "accLeft", void 0);
+    __decorate([
+        property
+    ], NewClass.prototype, "accRight", void 0);
+    __decorate([
+        property
+    ], NewClass.prototype, "xSpeed", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

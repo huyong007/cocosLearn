@@ -1,66 +1,115 @@
-2019-10-18T10:28:49.766Z - normal: Load ~/.CocosCreator/settings.json
-2019-10-18T10:28:49.811Z - normal: Initializing Asset Database
-2019-10-18T10:28:49.822Z - normal: checking language setting...
-2019-10-18T10:28:49.822Z - normal: Language: zh
-2019-10-18T10:28:50.155Z - success: preview server running at http://localhost:7456
-2019-10-18T10:28:50.215Z - success: protocol editor-framework registered
-2019-10-18T10:28:50.215Z - success: protocol app registered
-2019-10-18T10:28:50.216Z - success: protocol theme registered
-2019-10-18T10:28:50.216Z - success: protocol packages registered
-2019-10-18T10:28:50.216Z - success: protocol uuid registerred
-2019-10-18T10:28:50.216Z - success: protocol db registerred
-2019-10-18T10:28:50.216Z - success: protocol thumbnail registerred
-2019-10-18T10:28:50.216Z - success: protocol unpack registerred
-2019-10-18T10:28:50.216Z - success: protocol disable-commonjs registerred
-2019-10-18T10:28:50.301Z - normal: connected!
-2019-10-18T10:28:50.302Z - normal: Check project /Users/yonghu/all/luochen/cocos/eat-star-jump1
-2019-10-18T10:28:50.303Z - normal: Initializing project /Users/yonghu/all/luochen/cocos/eat-star-jump1
-2019-10-18T10:28:50.530Z - normal: Initializing Cocos2d
-2019-10-18T10:28:51.221Z - normal: Initializing engine extends
-2019-10-18T10:28:51.305Z - success: adapters loaded
-2019-10-18T10:28:51.332Z - success: asset-db-debugger loaded
-2019-10-18T10:28:51.391Z - success: fb-audience-network loaded
-2019-10-18T10:28:51.413Z - success: fb-live-stream loaded
-2019-10-18T10:28:51.415Z - success: google-play-instant loaded
-2019-10-18T10:28:51.419Z - success: huawei-runtime loaded
-2019-10-18T10:28:51.538Z - success: cpk-publish loaded
-2019-10-18T10:28:51.539Z - success: jsb-adapter loaded
-2019-10-18T10:28:51.544Z - success: oppo-runtime loaded
-2019-10-18T10:28:51.566Z - success: package-manager loaded
-2019-10-18T10:28:51.568Z - success: runtime-dev-tools loaded
-2019-10-18T10:28:51.595Z - success: sdkbox loaded
-2019-10-18T10:28:51.622Z - success: ui-kit-preview-extra loaded
-2019-10-18T10:28:51.649Z - success: ui-kit-preview loaded
-2019-10-18T10:28:51.654Z - success: vivo-runtime loaded
-2019-10-18T10:28:51.656Z - success: alipay-minigame loaded
-2019-10-18T10:28:51.729Z - success: assets loaded
-2019-10-18T10:28:51.732Z - success: baidugame-opendata loaded
-2019-10-18T10:28:51.734Z - success: baidugame loaded
-2019-10-18T10:28:51.757Z - success: builder loaded
-2019-10-18T10:28:51.878Z - success: cocos-services loaded
-2019-10-18T10:28:51.909Z - success: console loaded
-2019-10-18T10:28:51.918Z - success: fb-instant-games loaded
-2019-10-18T10:28:51.944Z - success: game-window loaded
-2019-10-18T10:28:51.945Z - success: google-instant-games loaded
-2019-10-18T10:28:51.972Z - success: hierarchy loaded
-2019-10-18T10:28:51.995Z - success: inspector loaded
-2019-10-18T10:28:51.996Z - success: keystore loaded
-2019-10-18T10:28:52.050Z - success: node-library loaded
-2019-10-18T10:28:52.052Z - success: open-recent-items loaded
-2019-10-18T10:28:52.053Z - success: package-asset loaded
-2019-10-18T10:28:52.054Z - success: preferences loaded
-2019-10-18T10:28:52.079Z - success: project-exporter loaded
-2019-10-18T10:28:52.103Z - success: project-importer loaded
-2019-10-18T10:28:52.127Z - success: project-settings loaded
-2019-10-18T10:28:52.156Z - success: scene loaded
-2019-10-18T10:28:52.157Z - success: simulator-debugger loaded
-2019-10-18T10:28:52.158Z - success: sprite-editor loaded
-2019-10-18T10:28:52.182Z - success: store loaded
-2019-10-18T10:28:52.214Z - success: timeline loaded
-2019-10-18T10:28:52.217Z - success: wechatgame-opendata loaded
-2019-10-18T10:28:52.222Z - success: wechatgame loaded
-2019-10-18T10:28:52.225Z - success: xiaomi-runtime loaded
-2019-10-18T10:28:53.372Z - info: Cocos Services load base data!
-2019-10-18T10:28:59.371Z - normal: Loading packages
-2019-10-18T10:28:59.376Z - normal: Watching packages
-2019-10-18T10:28:59.434Z - normal: Run Application
+2019-10-18T10:41:40.935Z - normal: Load ~/.CocosCreator/settings.json
+2019-10-18T10:41:40.982Z - normal: Initializing Asset Database
+2019-10-18T10:41:40.984Z - normal: checking language setting...
+2019-10-18T10:41:40.984Z - normal: Language: zh
+2019-10-18T10:41:41.360Z - success: preview server running at http://localhost:7456
+2019-10-18T10:41:41.409Z - success: protocol editor-framework registered
+2019-10-18T10:41:41.409Z - success: protocol app registered
+2019-10-18T10:41:41.409Z - success: protocol theme registered
+2019-10-18T10:41:41.409Z - success: protocol packages registered
+2019-10-18T10:41:41.409Z - success: protocol uuid registerred
+2019-10-18T10:41:41.410Z - success: protocol db registerred
+2019-10-18T10:41:41.410Z - success: protocol thumbnail registerred
+2019-10-18T10:41:41.410Z - success: protocol unpack registerred
+2019-10-18T10:41:41.410Z - success: protocol disable-commonjs registerred
+2019-10-18T10:41:41.504Z - normal: connected!
+2019-10-18T10:41:41.505Z - normal: Check project /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar
+2019-10-18T10:41:41.506Z - normal: Initializing project /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar
+2019-10-18T10:41:41.726Z - normal: Initializing Cocos2d
+2019-10-18T10:41:42.437Z - normal: Initializing engine extends
+2019-10-18T10:41:42.515Z - success: adapters loaded
+2019-10-18T10:41:42.544Z - success: asset-db-debugger loaded
+2019-10-18T10:41:42.603Z - success: fb-audience-network loaded
+2019-10-18T10:41:42.625Z - success: fb-live-stream loaded
+2019-10-18T10:41:42.628Z - success: google-play-instant loaded
+2019-10-18T10:41:42.635Z - success: huawei-runtime loaded
+2019-10-18T10:41:42.798Z - success: cpk-publish loaded
+2019-10-18T10:41:42.799Z - success: jsb-adapter loaded
+2019-10-18T10:41:42.809Z - success: oppo-runtime loaded
+2019-10-18T10:41:42.836Z - success: package-manager loaded
+2019-10-18T10:41:42.838Z - success: runtime-dev-tools loaded
+2019-10-18T10:41:42.868Z - success: sdkbox loaded
+2019-10-18T10:41:42.895Z - success: ui-kit-preview-extra loaded
+2019-10-18T10:41:42.921Z - success: ui-kit-preview loaded
+2019-10-18T10:41:42.930Z - success: vivo-runtime loaded
+2019-10-18T10:41:42.931Z - success: alipay-minigame loaded
+2019-10-18T10:41:43.005Z - success: assets loaded
+2019-10-18T10:41:43.009Z - success: baidugame-opendata loaded
+2019-10-18T10:41:43.012Z - success: baidugame loaded
+2019-10-18T10:41:43.036Z - success: builder loaded
+2019-10-18T10:41:43.157Z - success: cocos-services loaded
+2019-10-18T10:41:43.189Z - success: console loaded
+2019-10-18T10:41:43.208Z - success: fb-instant-games loaded
+2019-10-18T10:41:43.235Z - success: game-window loaded
+2019-10-18T10:41:43.235Z - success: google-instant-games loaded
+2019-10-18T10:41:43.264Z - success: hierarchy loaded
+2019-10-18T10:41:43.288Z - success: inspector loaded
+2019-10-18T10:41:43.289Z - success: keystore loaded
+2019-10-18T10:41:43.321Z - success: node-library loaded
+2019-10-18T10:41:43.322Z - success: open-recent-items loaded
+2019-10-18T10:41:43.325Z - success: package-asset loaded
+2019-10-18T10:41:43.327Z - success: preferences loaded
+2019-10-18T10:41:43.388Z - success: project-exporter loaded
+2019-10-18T10:41:43.415Z - success: project-importer loaded
+2019-10-18T10:41:43.444Z - success: project-settings loaded
+2019-10-18T10:41:43.474Z - success: scene loaded
+2019-10-18T10:41:43.476Z - success: simulator-debugger loaded
+2019-10-18T10:41:43.479Z - success: sprite-editor loaded
+2019-10-18T10:41:43.506Z - success: store loaded
+2019-10-18T10:41:43.538Z - success: timeline loaded
+2019-10-18T10:41:43.542Z - success: wechatgame-opendata loaded
+2019-10-18T10:41:43.548Z - success: wechatgame loaded
+2019-10-18T10:41:43.553Z - success: xiaomi-runtime loaded
+2019-10-18T10:41:44.049Z - normal: Loading packages
+2019-10-18T10:41:44.053Z - normal: Watching packages
+2019-10-18T10:41:44.127Z - normal: Run Application
+2019-10-18T10:41:44.365Z - info: Cocos Services load base data!
+2019-10-18T11:10:22.622Z - warn: Please specifiy a default value for "NewClass.accLeft" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2019-10-18T11:10:22.623Z - warn: Please specifiy a default value for "NewClass.accRight" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2019-10-18T11:10:22.624Z - warn: Please specifiy a default value for "NewClass.xSpeed" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2019-10-18T11:12:11.918Z - warn: Please specifiy a default value for "NewClass.accLeft" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2019-10-18T11:12:11.919Z - warn: Please specifiy a default value for "NewClass.accRight" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2019-10-18T11:12:11.919Z - warn: Please specifiy a default value for "NewClass.xSpeed" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2019-10-18T11:19:09.032Z - info: shutdown preview server

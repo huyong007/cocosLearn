@@ -14,16 +14,27 @@ const { ccclass, property } = cc._decorator;
 export default class NewClass extends cc.Component {
     // 主角跳跃高度
     @property
-    jumpHeight: number = 0;
+    jumpHeight: number = 150;
     // 主角跳跃持续时间
     @property
-    public jumpDuration: number = 0;
+    public jumpDuration: number = 0.3;
     // 最大移动速度
     @property
-    maxMoveSpeed: number = 0;
+    maxMoveSpeed: number = 400;
     // 加速度
     @property
-    accel: number = 0;
+    accel: number = 1000;
+
+    @property
+    accLeft: boolean = false;
+    @property
+    accRight: boolean = false;
+    @property
+    xSpeed: number = 1000;
+    // @property
+    // dt: number;
+
+
 
     setJumpAction() {
         // 跳跃上升
@@ -39,11 +50,66 @@ export default class NewClass extends cc.Component {
     onLoad() {
         let jumpAction = this.setJumpAction();
         this.node.runAction(jumpAction);
+        // 加速度方向开关
+        this.accLeft = false;
+        this.accRight = false;
+        // 主角当前水平方向速度
+        this.xSpeed = 100;
+
+        // 初始化键盘输入监听
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+    }
+    update(dt) {
+        if (this.accLeft) {
+            this.xSpeed -= this.accel * dt;
+        } else if (this.accRight) {
+            this.xSpeed += this.accel * dt;
+        }
+        if (Math.abs(this.xSpeed) > this.maxMoveSpeed) {
+            this.xSpeed = this.maxMoveSpeed * this.xSpeed / Math.abs(this.xSpeed);
+        }
+        this.node.x += this.xSpeed * dt;
+        console.log(this.node.x, 'this.node.x');
+
     }
 
+
+    onDestroy() {
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+    }
     start() {
 
     }
+    onKeyDown(event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.a:
+                this.accLeft = true;
+                console.log(this.accLeft, 'this.accLeft');
 
+                break;
+            case cc.macro.KEY.b:
+                this.accRight = true;
+                break;
+            default:
+                break;
+        }
+    }
+
+    onKeyUp(event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.a:
+                this.accLeft = false;
+                break;
+            case cc.macro.KEY.b:
+                this.accRight = false;
+                break;
+            default:
+                break;
+        }
+
+
+    }
     // update (dt) {}
 }
