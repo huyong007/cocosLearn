@@ -70,7 +70,7 @@ var NewClass = /** @class */ (function (_super) {
         this.accLeft = false;
         this.accRight = false;
         // 主角当前水平方向速度
-        this.xSpeed = 100;
+        this.xSpeed = -10;
         // 初始化键盘输入监听
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);

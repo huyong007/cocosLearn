@@ -1,115 +1,73 @@
-2019-10-18T10:41:40.935Z - normal: Load ~/.CocosCreator/settings.json
-2019-10-18T10:41:40.982Z - normal: Initializing Asset Database
-2019-10-18T10:41:40.984Z - normal: checking language setting...
-2019-10-18T10:41:40.984Z - normal: Language: zh
-2019-10-18T10:41:41.360Z - success: preview server running at http://localhost:7456
-2019-10-18T10:41:41.409Z - success: protocol editor-framework registered
-2019-10-18T10:41:41.409Z - success: protocol app registered
-2019-10-18T10:41:41.409Z - success: protocol theme registered
-2019-10-18T10:41:41.409Z - success: protocol packages registered
-2019-10-18T10:41:41.409Z - success: protocol uuid registerred
-2019-10-18T10:41:41.410Z - success: protocol db registerred
-2019-10-18T10:41:41.410Z - success: protocol thumbnail registerred
-2019-10-18T10:41:41.410Z - success: protocol unpack registerred
-2019-10-18T10:41:41.410Z - success: protocol disable-commonjs registerred
-2019-10-18T10:41:41.504Z - normal: connected!
-2019-10-18T10:41:41.505Z - normal: Check project /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar
-2019-10-18T10:41:41.506Z - normal: Initializing project /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar
-2019-10-18T10:41:41.726Z - normal: Initializing Cocos2d
-2019-10-18T10:41:42.437Z - normal: Initializing engine extends
-2019-10-18T10:41:42.515Z - success: adapters loaded
-2019-10-18T10:41:42.544Z - success: asset-db-debugger loaded
-2019-10-18T10:41:42.603Z - success: fb-audience-network loaded
-2019-10-18T10:41:42.625Z - success: fb-live-stream loaded
-2019-10-18T10:41:42.628Z - success: google-play-instant loaded
-2019-10-18T10:41:42.635Z - success: huawei-runtime loaded
-2019-10-18T10:41:42.798Z - success: cpk-publish loaded
-2019-10-18T10:41:42.799Z - success: jsb-adapter loaded
-2019-10-18T10:41:42.809Z - success: oppo-runtime loaded
-2019-10-18T10:41:42.836Z - success: package-manager loaded
-2019-10-18T10:41:42.838Z - success: runtime-dev-tools loaded
-2019-10-18T10:41:42.868Z - success: sdkbox loaded
-2019-10-18T10:41:42.895Z - success: ui-kit-preview-extra loaded
-2019-10-18T10:41:42.921Z - success: ui-kit-preview loaded
-2019-10-18T10:41:42.930Z - success: vivo-runtime loaded
-2019-10-18T10:41:42.931Z - success: alipay-minigame loaded
-2019-10-18T10:41:43.005Z - success: assets loaded
-2019-10-18T10:41:43.009Z - success: baidugame-opendata loaded
-2019-10-18T10:41:43.012Z - success: baidugame loaded
-2019-10-18T10:41:43.036Z - success: builder loaded
-2019-10-18T10:41:43.157Z - success: cocos-services loaded
-2019-10-18T10:41:43.189Z - success: console loaded
-2019-10-18T10:41:43.208Z - success: fb-instant-games loaded
-2019-10-18T10:41:43.235Z - success: game-window loaded
-2019-10-18T10:41:43.235Z - success: google-instant-games loaded
-2019-10-18T10:41:43.264Z - success: hierarchy loaded
-2019-10-18T10:41:43.288Z - success: inspector loaded
-2019-10-18T10:41:43.289Z - success: keystore loaded
-2019-10-18T10:41:43.321Z - success: node-library loaded
-2019-10-18T10:41:43.322Z - success: open-recent-items loaded
-2019-10-18T10:41:43.325Z - success: package-asset loaded
-2019-10-18T10:41:43.327Z - success: preferences loaded
-2019-10-18T10:41:43.388Z - success: project-exporter loaded
-2019-10-18T10:41:43.415Z - success: project-importer loaded
-2019-10-18T10:41:43.444Z - success: project-settings loaded
-2019-10-18T10:41:43.474Z - success: scene loaded
-2019-10-18T10:41:43.476Z - success: simulator-debugger loaded
-2019-10-18T10:41:43.479Z - success: sprite-editor loaded
-2019-10-18T10:41:43.506Z - success: store loaded
-2019-10-18T10:41:43.538Z - success: timeline loaded
-2019-10-18T10:41:43.542Z - success: wechatgame-opendata loaded
-2019-10-18T10:41:43.548Z - success: wechatgame loaded
-2019-10-18T10:41:43.553Z - success: xiaomi-runtime loaded
-2019-10-18T10:41:44.049Z - normal: Loading packages
-2019-10-18T10:41:44.053Z - normal: Watching packages
-2019-10-18T10:41:44.127Z - normal: Run Application
-2019-10-18T10:41:44.365Z - info: Cocos Services load base data!
-2019-10-18T11:10:22.622Z - warn: Please specifiy a default value for "NewClass.accLeft" at its declaration:
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2019-10-18T11:10:22.623Z - warn: Please specifiy a default value for "NewClass.accRight" at its declaration:
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2019-10-18T11:10:22.624Z - warn: Please specifiy a default value for "NewClass.xSpeed" at its declaration:
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2019-10-18T11:12:11.918Z - warn: Please specifiy a default value for "NewClass.accLeft" at its declaration:
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2019-10-18T11:12:11.919Z - warn: Please specifiy a default value for "NewClass.accRight" at its declaration:
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2019-10-18T11:12:11.919Z - warn: Please specifiy a default value for "NewClass.xSpeed" at its declaration:
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2019-10-18T11:19:09.032Z - info: shutdown preview server
+2019-10-18T11:41:28.547Z - normal: Load ~/.CocosCreator/settings.json
+2019-10-18T11:41:28.596Z - normal: Initializing Asset Database
+2019-10-18T11:41:28.598Z - normal: checking language setting...
+2019-10-18T11:41:28.599Z - normal: Language: zh
+2019-10-18T11:41:28.963Z - success: preview server running at http://localhost:7456
+2019-10-18T11:41:29.022Z - success: protocol editor-framework registered
+2019-10-18T11:41:29.022Z - success: protocol app registered
+2019-10-18T11:41:29.022Z - success: protocol theme registered
+2019-10-18T11:41:29.022Z - success: protocol packages registered
+2019-10-18T11:41:29.022Z - success: protocol uuid registerred
+2019-10-18T11:41:29.022Z - success: protocol db registerred
+2019-10-18T11:41:29.022Z - success: protocol thumbnail registerred
+2019-10-18T11:41:29.022Z - success: protocol unpack registerred
+2019-10-18T11:41:29.022Z - success: protocol disable-commonjs registerred
+2019-10-18T11:41:29.108Z - normal: connected!
+2019-10-18T11:41:29.109Z - normal: Check project /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar
+2019-10-18T11:41:29.110Z - normal: Initializing project /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar
+2019-10-18T11:41:29.329Z - normal: Initializing Cocos2d
+2019-10-18T11:41:29.712Z - normal: Initializing engine extends
+2019-10-18T11:41:29.836Z - success: adapters loaded
+2019-10-18T11:41:29.879Z - success: asset-db-debugger loaded
+2019-10-18T11:41:29.941Z - success: fb-audience-network loaded
+2019-10-18T11:41:29.965Z - success: fb-live-stream loaded
+2019-10-18T11:41:29.968Z - success: google-play-instant loaded
+2019-10-18T11:41:29.973Z - success: huawei-runtime loaded
+2019-10-18T11:41:30.100Z - success: cpk-publish loaded
+2019-10-18T11:41:30.102Z - success: jsb-adapter loaded
+2019-10-18T11:41:30.107Z - success: oppo-runtime loaded
+2019-10-18T11:41:30.143Z - success: package-manager loaded
+2019-10-18T11:41:30.152Z - success: runtime-dev-tools loaded
+2019-10-18T11:41:30.194Z - success: sdkbox loaded
+2019-10-18T11:41:30.231Z - success: ui-kit-preview-extra loaded
+2019-10-18T11:41:30.264Z - success: ui-kit-preview loaded
+2019-10-18T11:41:30.272Z - success: vivo-runtime loaded
+2019-10-18T11:41:30.275Z - success: alipay-minigame loaded
+2019-10-18T11:41:30.356Z - success: assets loaded
+2019-10-18T11:41:30.360Z - success: baidugame-opendata loaded
+2019-10-18T11:41:30.363Z - success: baidugame loaded
+2019-10-18T11:41:30.397Z - success: builder loaded
+2019-10-18T11:41:30.533Z - success: cocos-services loaded
+2019-10-18T11:41:30.564Z - success: console loaded
+2019-10-18T11:41:30.577Z - success: fb-instant-games loaded
+2019-10-18T11:41:30.606Z - success: game-window loaded
+2019-10-18T11:41:30.610Z - success: google-instant-games loaded
+2019-10-18T11:41:30.644Z - success: hierarchy loaded
+2019-10-18T11:41:30.673Z - success: inspector loaded
+2019-10-18T11:41:30.675Z - success: keystore loaded
+2019-10-18T11:41:30.713Z - success: node-library loaded
+2019-10-18T11:41:30.714Z - success: open-recent-items loaded
+2019-10-18T11:41:30.715Z - success: package-asset loaded
+2019-10-18T11:41:30.716Z - success: preferences loaded
+2019-10-18T11:41:30.766Z - success: project-exporter loaded
+2019-10-18T11:41:30.797Z - success: project-importer loaded
+2019-10-18T11:41:30.831Z - success: project-settings loaded
+2019-10-18T11:41:30.866Z - success: scene loaded
+2019-10-18T11:41:30.868Z - success: simulator-debugger loaded
+2019-10-18T11:41:30.869Z - success: sprite-editor loaded
+2019-10-18T11:41:30.907Z - success: store loaded
+2019-10-18T11:41:30.976Z - success: timeline loaded
+2019-10-18T11:41:30.979Z - success: wechatgame-opendata loaded
+2019-10-18T11:41:30.982Z - success: wechatgame loaded
+2019-10-18T11:41:30.987Z - success: xiaomi-runtime loaded
+2019-10-18T11:41:31.473Z - normal: Loading packages
+2019-10-18T11:41:31.478Z - normal: Watching packages
+2019-10-18T11:41:31.569Z - normal: Run Application
+2019-10-18T11:41:31.807Z - info: Cocos Services load base data!
+2019-10-19T02:14:47.194Z - success: API data generated and copied to /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar/creator.d.ts
+2019-10-19T02:14:57.166Z - success: VS Code extension installed to /Users/yonghu/.vscode/extensions
+2019-10-19T02:15:34.193Z - success: TypeScript Configuration file has been copied to /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar/tsconfig.json
+2019-10-19T02:16:08.371Z - success: Chrome debug setting has been updated to .vscode/launch.json, please install Debugger for Chrome VS Code extension to debug your project.
+2019-10-19T02:21:19.767Z - success: API data generated and copied to /Users/yonghu/all/luochen/cocos/cocosLearn/jumpStar/creator.d.ts
+2019-10-19T02:28:37.883Z - success: Compiling task has been added to .vscode/tasks.json, please run "compile" task in VS Code to trigger compile in Cocos Creator.
+2019-10-19T02:39:42.547Z - success: Compiling task has been added to .vscode/tasks.json, please run "compile" task in VS Code to trigger compile in Cocos Creator.

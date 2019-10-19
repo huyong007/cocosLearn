@@ -504,9 +504,14 @@
     "meta": 1571394533152,
     "relativePath": "prefab/light/spot.prefab"
   },
+  "eeae3a71-bfc9-420e-9c19-b93c60b75706": {
+    "asset": 1571453682721,
+    "meta": 1571453691922,
+    "relativePath": "scripts/Player.js"
+  },
   "11971077-c032-4a9d-a86f-65e7affc7dd3": {
-    "asset": 1571397501563,
-    "meta": 1571397509668,
+    "asset": 1571453682237,
+    "meta": 1571453691922,
     "relativePath": "scripts/Player.ts"
   }
 }

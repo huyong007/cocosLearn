@@ -1,8 +1,4 @@
 "use strict";
-cc._RF.push(module, '11971B3wDJKnahvZeev/H3T', 'Player');
-// scripts/Player.ts
-
-"use strict";
 // Learn TypeScript:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/typescript.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/typescript.html
@@ -146,5 +142,3 @@ var NewClass = /** @class */ (function (_super) {
     return NewClass;
 }(cc.Component));
 exports.default = NewClass;
-
-cc._RF.pop();
